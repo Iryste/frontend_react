@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: '$font1';
+    src: url(../assets/fonts/MetalMania-Regular.ttf);
+}
+
+$font1 : 'metal mania';
+
+$color1 : green;
+$color2 : yellowgreen;
+$color3 : yellow;

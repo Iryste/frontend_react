@@ -3,7 +3,6 @@ import Loader from '../components/Loader';
 
 
 const Home = () => {
-
     const [tasks, setTasks] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
@@ -17,17 +16,16 @@ if (isLoading) {
     }
     }, [isLoading]);
     console.log(tasks);
-
-    return !isLoading ? (
+    return (!isLoading ? (
                 tasks?.map((task) => {
-                    return <div key={task?.id}>
-                        <h2>{task?.titre}</h2>
-                        <span>{task?.description}</span>
+                    return <div key={task?.id} className='info'>
+                        <h2 className='titre'>{task?.titre}</h2>
+                        <span className='desc'>{task?.description}</span>
                     </div>
                 })
             ) : (
             <Loader />
             )
-};
+)};
 
 export default Home;

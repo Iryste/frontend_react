@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+    color: $color2;
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 0;
+    z-index: 1000;
+}

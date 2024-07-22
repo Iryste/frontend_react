@@ -1,0 +1,17 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.titre {
+    margin: 20px;
+}
+
+.desc {
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
