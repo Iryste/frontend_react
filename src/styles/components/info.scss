@@ -1,17 +1,38 @@
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 30px;
 }
 
 .titre {
+    display: flex;
+    border: 2px solid black;
     margin: 20px;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
 }
 
 .desc {
+    display: flex;
     border: 2px solid black;
-    height: 150px;
-    width: 150px;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    height: fit-content;
+    width: fit-content;
 }
